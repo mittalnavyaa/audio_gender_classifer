@@ -19,6 +19,7 @@ The dataset was obtained from [VoxCeleb1](https://huggingface.co/datasets/Progra
 ├── best_model.pth           # Best performing trained model
 ├── Confusion_Matrix.jpg     # Confusion matrix visualization
 ├── test_vs_train_curves.jpg # Train vs Test accuracy/loss curves
+├── result.jpg               # Accuracy and other statistics
 ├── README.md                # Project documentation
 ```
 
@@ -57,3 +58,4 @@ The results will include accuracy, loss curves, and a confusion matrix.
 - **Best Accuracy:** Achieved on the validation set using `best_model.pth`
 - **Confusion Matrix:** ![Confusion Matrix](Confusion_Matrix.jpg)
 - **Train vs Test Curves:** ![Train vs Test](test_vs_train_curves.jpg)
+- **Performance Metrics:** ![Result Statistics](result.jpg)
